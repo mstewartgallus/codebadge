@@ -1,0 +1,38 @@
+= Code Quality Badges (Draft Status) =
+
+I think that it should be really easy for consumers to look at
+software they buy and to see if the software they want fits some
+standard of quality.  In the future, I would like to see some kind of
+official certification.  In order to facilitate this I would propose a
+few badges that software projects could display to show their level of
+quality.  The names and descriptions of these badges should also be
+easy for customers to understand.
+
+== Control Flow Coverage Badges ==
+
+The program continuously tests separate cases of how their program
+functions.
+
+- Bronze: 25% of binary control flow paths are tested by unit tests.
+- Silver: 50% of binary control flow paths are tested by unit tests.
+- Gold: 75% of binary control flow paths are tested by unit tests.
+- Platinum: 100% of binary control flow paths are tested by unit tests.
+
+== Control Flow Integrity Badge ==
+
+The program state cannot be corrupted such that the program will jump
+into an unexpected area of code.  In particular, the following attacks
+are impossible.  The code cannot be attacked by
+Return-Oriented-Programming attacks.  The code cannot be attacked by
+Signal-Return-Oriented-Programming attacks.
+
+== Principle of Least Privilege Badges ==
+
+The program only does the least possible thing it can do.
+
+- Platinum: The program only reads and writes from the standard input
+  and output.
+
+This work is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License. To view a copy of
+this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
