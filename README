@@ -33,6 +33,17 @@ The program only does the least possible thing it can do.
 - Platinum: The program only reads and writes from the standard input
   and output.
 
+== Small Code Badges ==
+
+The program is very small and easily auditable.  In numerous studies
+the number of lines of code directly correlates with the number of
+software bugs.
+
+- Platinum: The program measures less than 1000 lines of code.
+- Gold: The program measures less than 2000 lines of code.
+- Silver: The program measures less than 4000 lines of code.
+- Bronze: The program measures less than 8000 lines of code.
+
 This work is licensed under the Creative Commons
 Attribution-ShareAlike 4.0 International License. To view a copy of
 this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
