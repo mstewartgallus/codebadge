@@ -44,6 +44,21 @@ software bugs.
 - Silver: The program measures less than 4000 lines of code.
 - Bronze: The program measures less than 8000 lines of code.
 
+== No Signal Handlers Badge ==
+
+Signal handlers are a specific Unix programming concept that are
+famously difficult to understand and produce correct code with.  Not
+having signal handlers completely stops the possibility of certain
+kinds of security vulnerabilities.
+
+== Single Thread Only Badge ==
+
+Multithreading is a specific programming concept that is famously
+difficult to understand and produce correct code with.  Not having
+multiple threads of control and having only one single thread
+completely stops the possiblity of certain kinds of security
+vulnerabilities.
+
 This work is licensed under the Creative Commons
 Attribution-ShareAlike 4.0 International License. To view a copy of
 this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
