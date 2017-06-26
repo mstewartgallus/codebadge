@@ -44,6 +44,18 @@ software bugs.
 - Silver: The program measures less than 4000 lines of code.
 - Bronze: The program measures less than 8000 lines of code.
 
+== Bounded Stack Usage Badge ==
+
+The program does not recurse indefinitely or dynamically allocate
+memory on the stack.  It only uses a statically bounded amount of
+stack and will never have a stack overflow or stack clash bug.
+
+== Bounded Heap Usage Badge ==
+
+The program does not dynamically allocate memory from the heap after
+program startup.  It only uses a bounded amount of heap memory for any
+given input and will not have an out of heap memory error.
+
 == No Signal Handlers Badge ==
 
 Signal handlers are a specific Unix programming concept that are
